@@ -13,7 +13,7 @@
         
         body { margin: 0; overflow-x: hidden; background-color: #080510; color: #fff; font-family: 'Inter', sans-serif; }
         #canvas-container { position: fixed; top: 0; left: 0; outline: none; z-index: 1; pointer-events: none; }
-        .content { position: relative; z-index: 2; pointer-events: none; }
+        .content { position: relative; z-index: 10; pointer-events: none; }
         .interactable { pointer-events: auto; }
         .glass { background: rgba(139, 92, 246, 0.03); backdrop-filter: blur(12px); border: 1px solid rgba(167, 139, 250, 0.1); }
         .hero-text { text-shadow: 0 0 30px rgba(167, 139, 250, 0.3); }
@@ -330,4 +330,5 @@
         window.onload = init;
     </script>
 </body>
+
 </html>
